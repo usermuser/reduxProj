@@ -1,0 +1,252 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"display_width-10"
+			],
+			[
+				"dip",
+				"display_width"
+			],
+			[
+				"g",
+				"gameDisplay"
+			],
+			[
+				"ce",
+				"align-center"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/user/work/reduxProj",
+		"/home/user/work/reduxProj/reduxProj"
+	],
+	"file_history":
+	[
+		"/home/user/work/reduxProj/reduxProj/settings.py",
+		"/home/user/work/reduxProj/manage.py",
+		"/usr/lib/python3.5/os.py",
+		"/home/user/work/reduxProj/redux.sublime-project",
+		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/registration_form.html",
+		"/home/user/work/reduxProj/reduxProj/urls.py",
+		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/forms.py",
+		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/activation_email.html",
+		"/home/user/work/reduxProj/base.html",
+		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/login.html",
+		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/backends/default/urls.py",
+		"/home/user/work/reduxProj/templates/registration/activation_email.html",
+		"/home/tgs/work/tgs/catalog/templates/catalog/product.html",
+		"/home/tgs/work/tgs/main/templates/main/base.html",
+		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/activation_email.txt",
+		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/registration_base.html",
+		"/home/tgs/work/tgs/catalog/templates/catalog/index.html",
+		"/home/tgs/work/tgs/tgs/settings.py",
+		"/home/user/work/dodge_game_py/racey/dinorun.py",
+		"/home/user/Рабочий стол/delay",
+		"/home/tgs/work/tgs/catalog/urls.py",
+		"/home/tgs/work/tgs/tgs/urls.py",
+		"/home/tgs/work/tgs/catalog/views.py",
+		"/home/tgs/work/tgs/catalog/models.py",
+		"/home/tgs/work/tgs/catalog/templates/catalog/base.html",
+		"/home/tgs/work/tgs/catalog/admin.py",
+		"/home/user/work/tigers_template2/index.html",
+		"/home/user/work/tigers_template2/css/style.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sites",
+			"models",
+			"latest_question_list",
+			"наш акции",
+			"logo1",
+			"flexsli"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"product_list"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "redux.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/user/work/reduxProj/"
+		}
+	],
+	"settings": {
+        "python_interpreter": "/home/user/work/envs/envDjango2/bin/python"
+}
+}
