@@ -157,7 +157,7 @@ LOGIN_REDIRECT_URL = '/admin/'
 #django email docs
 #https://docs.djangoproject.com/en/dev/topics/email/
 
-#TODO
+###TODO
 
 #create at least one applicateon because we need it in future
 #let it be landing page or somthing similar
@@ -170,11 +170,10 @@ LOGIN_REDIRECT_URL = '/admin/'
 #https://www.youtube.com/watch?v=A-7vGF_pEss
 
 
-#to create app with name landing, type this:
+###to create app with name landing, type this:
 python manage.py startapp landing
 
 #then open file landing/views.py and create our first view
-
 
 from django.http import HttpResponse
 
@@ -182,15 +181,22 @@ def landing_view(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
 #next we need to create url that will lead user to landing_view
-#create landing/views.py file and create url like this:
-
-from django.conf.urls import url
-
-from . import views
+#create landing/urls.py file and create url like this:
 
 urlpatterns = [
     url(r'^$', views.landing_view, name='landing'),
 ]
 
-#also we need to include our new landing/views.py file in main urls.py file
-#open projname/urls.py file
+#also we need to include our new landing/urls.py file in main urls.py file
+#open projname/urls.py file and add this include
+
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+    url(r'^landing/', include('landing.urls')),
+
+#but we still don't see landing app in admin interface
+#see official django docs 
+https://docs.djangoproject.com/en/1.11/intro/tutorial02/
+https://docs.djangoproject.com/en/1.11/intro/tutorial03/
+
+#

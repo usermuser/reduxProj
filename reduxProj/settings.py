@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'registration',
     'django.contrib.admin',
+    'landing.apps.LandingConfig',
 ]
 
 MIDDLEWARE = [
