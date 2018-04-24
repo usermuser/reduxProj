@@ -150,3 +150,27 @@ LOGIN_REDIRECT_URL = '/admin/'
 #https://www.youtube.com/watch?v=A-7vGF_pEss
 
 
+#to create app with name landing, type this:
+python manage.py startapp landing
+
+#then open file landing/views.py and create our first view
+
+
+from django.http import HttpResponse
+
+def landing_view(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
+
+#next we need to create url that will lead user to landing_view
+#create landing/views.py file and create url like this:
+
+from django.conf.urls import url
+
+from . import views
+
+urlpatterns = [
+    url(r'^$', views.landing_view, name='landing'),
+]
+
+#also we need to include our new landing/views.py file in main urls.py file
+#open projname/urls.py file
