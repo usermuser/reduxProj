@@ -1,28 +1,48 @@
-#To create venv with python3 as default python, add path to command
+###To create venv with python3 as default python, add path to command
 virtualenv --python=/usr/bin/python3 ENV_NAME
 
------ sequence of commands i used to install all necessary packages ------
+### sequence of commands i used to install all necessary packages ------
 
-pip -V                                                #check pip version. On my PC it was 10.0.1
-virtualenv --version                                  #check virtualenv version. My version is 15.1.0
-virtualenv --python=/usr/bin/python3 envDjango        #create new venv with python3 as default
-source envDjango2/bin/activate                        #activate our venv
-pip install Django==1.11.12                           #install latest LTS version of Django
-python -c 'import django;print(django.get_version())  #check Django installation
+pip -V          #check pip version. On my PC it was 10.0.1
+virtualenv --version        #check virtualenv version. My version is 15.1.0
+
+#create new venv with python3 as default
+virtualenv --python=/usr/bin/python3 envDjango   
+
+source envDjango2/bin/activate    #activate our venv
+
+pip install Django==1.11.12       #install latest LTS version of Django
+
+#check Django installation
+python -c 'import django;print(django.get_version())  
 python -m django --version                            #same 
 django-admin startproject projName                    #create project
-tree                                                  #check that we have all necessary files and folders
-python manage.py runserver                            #start development server to check if everthinh is ok
-in browser go to http://127.0.0.1:8000/               #if you see "It worked!"
 
------- next steps for extra django-registration-redux package installation and configuring -----
+#check that we have all necessary files and folders
+tree                                      
 
-http://django-registration-redux.readthedocs.io/en/latest/quickstart.html   #redux documentation
-pip install django-registration-redux                                       #install command
-pip list                                                                    #check all installed packages
+#start development server to check if everthinh is ok
+python manage.py runserver                            
 
-###check INSTALLED_APPS section in settings.py file.
-###add three lines if they not exist:
+in browser go to http://127.0.0.1:8000/       # "It worked!"
+
+
+
+
+###Next steps for django-registration-redux package installation and 
+#configuring
+
+#redux documentation
+http://django-registration-redux.readthedocs.io/en/latest/quickstart.html   
+
+#install command
+pip install django-registration-redux 
+
+#check all installed packages
+pip list                                                                    
+
+#check INSTALLED_APPS section in settings.py file.
+#add three lines if they not exist:
 
 INSTALLED_APPS = (
     'django.contrib.sites',
@@ -35,7 +55,7 @@ INSTALLED_APPS = (
 ACCOUNT_ACTIVATION_DAYS = 7         # One-week activation window; you may, of course, use a different value.
 REGISTRATION_AUTO_LOGIN = True      # Automatically log the user in.
 
-####Open urls.py file in your project folder and make it look like this
+#Open urls.py file in your project folder and make it look like this
 #in short: add accounts line, and add include to first line
 
         from django.conf.urls import url, include
