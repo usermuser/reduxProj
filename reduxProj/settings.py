@@ -124,6 +124,23 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_FINDERS = [
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+]
+
+# Your project will probably also have static assets that
+# aren’t tied to a particular app.
+# In addition to using a static/ directory inside your apps,
+# you can define a list of directories (STATICFILES_DIRS) in
+# your settings file where Django will also look for static files.
+# For example:
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    # '/home/user/work',
+]
+print(STATICFILES_DIRS)
 # DJANGO REGISTRATION REDUX SETTINGS
 ACCOUNT_ACTIVATION_DAYS = 7         # One-week activation window
 REGISTRATION_AUTO_LOGIN = True      # Automatically log the user in.
