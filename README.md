@@ -208,7 +208,36 @@ https://docs.djangoproject.com/en/1.11/intro/tutorial03/
 
 <a class="p-2 text-dark" href="{% url 'auth_login' %}">Login</a>
 
+
+###We have two system wide urls, these are comes with
+#registration applictaion, and they located in
+
+#site-packages/registration/auth_urls.py
+#site-packages/registration/backends/default/urls.p
+
 #this url is located in auth_urls.py file in this path
+
 lib/python3.5/site-packages/registration/auth_urls.py
+
 #registration package installed as site-packge of python,
 #all necessary urls are in this file
+/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/backends/default/urls.py
+
+https://www.youtube.com/watch?v=qkFWkOw-ByU
+
+#change in projname/registration/login.html file first line
+{% extends "landing/base.html" %}
+
+###add is_authenticated filter to navbar.html
+
+{% if user.is_authenticated %}
+
+  <a href="{% url 'auth_logout' %}">Logout</a>
+
+{% else %}
+
+  <a href="{% url 'auth_login' %}">Login</a>
+  <a href="{% url 'registration_register' %}">Register</a>
+
+{% endif %}
+
