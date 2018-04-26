@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ST",
+				"STATICFILES_DIRS\t(statement)"
+			],
+			[
+				"Sta",
+				"STATIC_URL\t(statement)"
+			],
+			[
 				"di",
 				"display_width-10"
 			],
@@ -24,21 +32,40 @@
 	"buffers":
 	[
 		{
-			"file": "reduxProj/settings.py",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 3447,
+				"buffer_size": 7234,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#To create venv with python3 as default python, ad"
+			}
+		},
+		{
+			"file": "landing/templates/landing/base.html",
+			"settings":
+			{
+				"buffer_size": 6195,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "reduxProj/settings.py",
 			"settings":
 			{
-				"buffer_size": 6518,
+				"buffer_size": 4038,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "#To create venv with python3 as default python, ad"
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "landing/views.py",
+			"settings":
+			{
+				"buffer_size": 359,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -103,16 +130,30 @@
 	"expanded_folders":
 	[
 		"/home/user/work/reduxProj",
-		"/home/user/work/reduxProj/reduxProj"
+		"/home/user/work/reduxProj/landing",
+		"/home/user/work/reduxProj/landing/static",
+		"/home/user/work/reduxProj/landing/templates",
+		"/home/user/work/reduxProj/landing/templates/landing",
+		"/home/user/work/reduxProj/reduxProj",
+		"/home/user/work/reduxProj/templates"
 	],
 	"file_history":
 	[
+		"/home/tgs/work/tgs/main/templates/main/base.html",
+		"/home/user/work/reduxProj/landing/templates/base.html",
+		"/home/user/Загрузки/bootstrap-4.1.0/docs/4.1/examples/pricing/index.html",
+		"/home/user/work/reduxProj/templates/base.html",
+		"/home/user/work/templates_responsive/bs3_basic.html",
+		"/home/user/work/templates_responsive/templated-theory/assets/css/main.css",
+		"/home/user/work/templates_responsive/templated-theory/index.html",
+		"/home/user/work/reduxProj/reduxProj/urls.py",
+		"/home/user/work/reduxProj/landing/urls.py",
+		"/home/user/work/reduxProj/landing/admin.py",
 		"/home/user/work/reduxProj/reduxProj/settings.py",
 		"/home/user/work/reduxProj/manage.py",
 		"/usr/lib/python3.5/os.py",
 		"/home/user/work/reduxProj/redux.sublime-project",
 		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/registration_form.html",
-		"/home/user/work/reduxProj/reduxProj/urls.py",
 		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/forms.py",
 		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/activation_email.html",
 		"/home/user/work/reduxProj/base.html",
@@ -120,7 +161,6 @@
 		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/backends/default/urls.py",
 		"/home/user/work/reduxProj/templates/registration/activation_email.html",
 		"/home/tgs/work/tgs/catalog/templates/catalog/product.html",
-		"/home/tgs/work/tgs/main/templates/main/base.html",
 		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/activation_email.txt",
 		"/home/user/work/envs/envDjango2/lib/python3.5/site-packages/registration/templates/registration/registration_base.html",
 		"/home/tgs/work/tgs/catalog/templates/catalog/index.html",
@@ -138,7 +178,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -152,6 +192,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"static",
 			"sites",
 			"models",
 			"latest_question_list",
@@ -181,49 +222,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "reduxProj/settings.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3447,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3447,
-								3447
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1995.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6518,
+						"buffer_size": 7234,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5953,
-								5953
+								7230,
+								7230
 							]
 						],
 						"settings":
@@ -234,10 +245,99 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2398.0,
+						"translation.y": 3135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "landing/templates/landing/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								938,
+								938
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "reduxProj/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4038,
+								4038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2223.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "landing/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
