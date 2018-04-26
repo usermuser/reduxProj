@@ -145,4 +145,4 @@ print(STATICFILES_DIRS)
 ACCOUNT_ACTIVATION_DAYS = 7         # One-week activation window
 REGISTRATION_AUTO_LOGIN = True      # Automatically log the user in.
 SITE_ID = 1
-LOGIN_REDIRECT_URL = '/admin/'
+LOGIN_REDIRECT_URL = '/landing'

@@ -159,14 +159,12 @@ LOGIN_REDIRECT_URL = '/admin/'
 
 ###TODO
 
-#create at least one applicateon because we need it in future
-#let it be landing page or somthing similar
+#create at least one applicateon because we need it in future: DONE.
+#let it be landing page or somthing similar DONE.
 #change login template and settings to correctly redirect user without errors
 #change register/logout templates same way
 #configure email sending mecanism, take information from:
 #https://www.youtube.com/watch?v=bhzasigpf3Q
-
-#next video mayby will help in future
 #https://www.youtube.com/watch?v=A-7vGF_pEss
 
 
@@ -199,4 +197,18 @@ urlpatterns = [
 https://docs.djangoproject.com/en/1.11/intro/tutorial02/
 https://docs.djangoproject.com/en/1.11/intro/tutorial03/
 
-#
+#make shure that in your base html you have these tags
+{% load static %}
+{% block title %}{% endblock %}
+{% block content %}{% endblock %}
+
+#our redux app will use these tags to show forms
+#if you want link to login page on your landing page
+#change href tag like this:
+
+<a class="p-2 text-dark" href="{% url 'auth_login' %}">Login</a>
+
+#this url is located in auth_urls.py file in this path
+lib/python3.5/site-packages/registration/auth_urls.py
+#registration package installed as site-packge of python,
+#all necessary urls are in this file
