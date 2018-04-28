@@ -27,11 +27,31 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#Email sending settings
 EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 2525
-EMAIL_HOST_USER = "your@mail.ru"
-EMAIL_HOST_PASSWORD = "password"
+EMAIL_HOST_USER = "kulebyaka2020@mail.ru"
+EMAIL_HOST_PASSWORD = "Test2018!"
 EMAIL_USE_TLS = True
+
+#Add next two lines to enable sending traceback emails to admins
+SERVER_EMAIL = 'kulebyaka2020@mail.ru'          #must be the same as EMAIL_HOST_USER
+DEFAULT_FROM_EMAIL = 'kulebyaka2020@mail.ru'
+
+'''
+Отправить сообщение
+Чтобы послать письмо нужно лишь в коде вызвать команду send_mail, например
+
+from django.conf import settings
+send_mail('Тема', 'Тело письма', settings.EMAIL_HOST_USER, ['to@example.com'])
+Обратите внимание, что для предотвращения ошибки 
+501 sender address must match authenticated user 
+нужно использовать адрес отправителя такой же, 
+как EMAIL_HOST_USER (адрес пользователя при подключении к SMPT серверу).
+Более подробно об этой ошибки в статье:
+Error: SMTPRecipientsRefused 501 - sender address must match authenticated user
+'''
+
 
 # Application definition
 
