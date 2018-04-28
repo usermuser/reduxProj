@@ -27,6 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 2525
+EMAIL_HOST_USER = "your@mail.ru"
+EMAIL_HOST_PASSWORD = "password"
+EMAIL_USE_TLS = True
+
 # Application definition
 
 INSTALLED_APPS = [
