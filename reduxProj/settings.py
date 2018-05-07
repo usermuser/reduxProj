@@ -52,6 +52,10 @@ send_mail('Тема', 'Тело письма', settings.EMAIL_HOST_USER, ['to@ex
 Error: SMTPRecipientsRefused 501 - sender address must match authenticated user
 '''
 
+# During development we will use console email backend
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' < default
+
 
 # Application definition
 
